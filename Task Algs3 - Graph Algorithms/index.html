@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graph Algorithms</title>
+</head>
+<body>
+    <h1>Graph Algorithms</h1>
+    <p>Enter edges (comma-separated) in the format "u-v-w" where u and v are vertices and w is the weight, e.g., "0-1-4,0-2-1,2-1-2".</p>
+    <input type="text" id="edges" placeholder="e.g., 0-1-4,0-2-1,2-1-2">
+    <button onclick="runGraphAlgorithms()">Run Algorithms</button>
+
+    <h2>Results:</h2>
+    <p>Dijkstra: <span id="dijkstra"></span></p>
+    <p>Bellman-Ford: <span id="bellmanFord"></span></p>
+    <p>Floyd-Warshall: <span id="floydWarshall"></span></p>
+    <p>Prim: <span id="prim"></span></p>
+    <p>Kruskal: <span id="kruskal"></span></p>
+    <p>DFS: <span id="dfs"></span></p>
+    <p>BFS: <span id="bfs"></span></p>
+
+    <script src="graph.js"></script>
+</body>
+</html>
